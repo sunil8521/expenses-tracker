@@ -389,6 +389,30 @@ const HomePage = () => {
                             />
                             Transportation
                           </SelectItem>
+                          <SelectItem value="roti">
+                            <img
+                              src="/roti.png"
+                              alt="Roti Icon"
+                              className="inline-block w-6 h-6 mr-2"
+                            />
+                            Roti
+                          </SelectItem>
+                          <SelectItem value="cantine">
+                            <img
+                              src="/cantine.png"
+                              alt="Roti Icon"
+                              className="inline-block w-6 h-6 mr-2"
+                            />
+                            Cantine
+                          </SelectItem>
+                          <SelectItem value="course">
+                            <img
+                              src="/course.png"
+                              alt="Course Icon"
+                              className="inline-block w-6 h-6 mr-2"
+                            />
+                            Course
+                          </SelectItem>
                         </>
                       ) : (
                         <>
